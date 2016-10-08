@@ -2,8 +2,8 @@
 title: Matthew Blode
 timezone: UTC
 collections:
-  blog:
-    title: Blog
+  work:
+    title: Work
     output: true
   posts:
     title: Posts
@@ -24,10 +24,10 @@ defaults:
     layout: page
 - scope:
     path: ''
-    type: blog
+    type: work
   values:
     layout: post
-    permalink: "/blog/:title/"
+    permalink: "/work/:title/"
 permalink: pretty
 markdown: kramdown
 kramdown:
@@ -39,3 +39,4 @@ github_username: mblode
 autoprefixer:
   browsers:
   - last 2 versions
+
