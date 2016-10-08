@@ -2,14 +2,14 @@
 title: Matthew Blode
 timezone: UTC
 collections:
-  work:
-    title: Work
-    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
+    output: true
+  work:
+    title: Work
     output: true
 defaults:
 - scope:
@@ -39,4 +39,3 @@ github_username: mblode
 autoprefixer:
   browsers:
   - last 2 versions
-
