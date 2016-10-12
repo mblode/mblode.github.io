@@ -1,0 +1,30 @@
+.container {
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.row {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col {
+  width: 100%;
+  flex: 0 0 100%;
+  pading: 20px;
+}
+
+.card {
+  display: inline-block;
+  width: calc(50% - 5px);
+  flex: auto;
+}
+
+@media (min-width: 50em) {
+  .card {
+    width: calc(33.3333% - 5px);
+  }
+}

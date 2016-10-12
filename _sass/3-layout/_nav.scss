@@ -1,0 +1,23 @@
+.nav--left {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.nav--right {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.nav--link,
+.nav--brand {
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+
+  &:hover {
+  background: darken(deepskyblue, 2%);
+  }
+}
