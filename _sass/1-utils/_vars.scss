@@ -1,0 +1,18 @@
+$lg: 1200px;
+$md: 992px;
+$sm: 768px;
+$xs: 544px;
+
+@font-face {
+  font-family: 'Tiempos Headline';
+  src: url('TiemposHeadline-Bold.eot');
+  src: url('TiemposHeadline-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TiemposHeadline-Bold.woff') format('woff'),
+    url('../fonts/TiemposHeadline-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+$default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+$heading: 'Tiempos Headline', serif;
