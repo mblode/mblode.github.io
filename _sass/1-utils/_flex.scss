@@ -1,20 +1,23 @@
 .container {
   margin: 0 auto;
-  max-width: 768px;
+  max-width: 700px;
 }
 
 .row {
-  margin-left: 10px;
-  margin-right: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .col {
   width: 100%;
-  flex: 0 0 100%;
-  pading: 20px;
+  flex: 1;
+}
+
+.col-6 {
+  width: 50%;
 }
 
 .card {
@@ -23,8 +26,19 @@
   flex: auto;
 }
 
-@media (min-width: 50em) {
+.align-right {
+  justify-content: flex-end;
+}
+
+@media (min-width: $sm) {
   .card {
     width: calc(33.3333% - 5px);
+  }
+}
+
+@media (max-width: $sm) {
+  .col-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
   }
 }

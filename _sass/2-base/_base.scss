@@ -1,3 +1,16 @@
 img {
   max-width: 100%;
 }
+
+html {
+  border: 10px solid $red;
+  background: $purple;
+  padding: 10px;
+  color: $red;
+}
+
+@media (min-width: $sm) {
+  html {
+    border: 20px solid $red;
+  }
+}

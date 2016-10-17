@@ -3,16 +3,16 @@ $md: 992px;
 $sm: 768px;
 $xs: 544px;
 
-@font-face {
-  font-family: 'Tiempos Headline';
-  src: url('TiemposHeadline-Bold.eot');
-  src: url('TiemposHeadline-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/TiemposHeadline-Bold.woff') format('woff'),
-    url('../fonts/TiemposHeadline-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
+$baseFontSize: 18;
+$baseLineHeight: 1.5;
+$leading: $baseLineHeight * 1rem;
+$line-height: $baseLineHeight * 1rem;
+$scale: 1;
 
-$default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$body: "inconsolata", monospaced;
+$heading: "neuzeit-grotesk", sans-serif;
 
-$heading: 'Tiempos Headline', serif;
+$white: #efefef;
+$black: rgba(0, 0, 0, .87);
+$red: #FF8181;
+$purple: #3A3C83;

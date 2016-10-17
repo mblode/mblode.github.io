@@ -1,0 +1,43 @@
+.menu {
+  margin: 0;
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.menu>li {
+  flex: 0 0 auto;
+}
+
+.menu > li > a {
+    display: flex;
+    flex-flow: row;
+    display: block;
+    padding: 1rem 1rem 1rem 0;
+    line-height: 1;
+    font-family: $heading;
+    font-weight: bold;
+}
+
+.menu.align-right > li > a {
+    padding: 1rem 0 1rem 1rem;
+    font-weight: normal;
+}
+
+@media (max-width: $sm) {
+  .menu {
+    justify-content: center;
+  }
+
+  .menu > li > a {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .menu.align-right > li > a {
+      text-align: center;
+      padding: .7rem;
+    }
+}

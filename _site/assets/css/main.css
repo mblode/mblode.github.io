@@ -479,108 +479,166 @@ textarea,
 [hidden][aria-hidden="false"]:focus {
   clip: auto; }
 
-@font-face {
-  font-family: 'Tiempos Headline';
-  src: url("TiemposHeadline-Bold.eot");
-  src: url("TiemposHeadline-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/TiemposHeadline-Bold.woff") format("woff"), url("../fonts/TiemposHeadline-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal; }
 .container {
   margin: 0 auto;
-  max-width: 768px; }
+  max-width: 700px; }
 
 .row {
-  margin-left: 10px;
-  margin-right: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px; }
 
 .col {
   width: 100%;
-  flex: 0 0 100%;
-  pading: 20px; }
+  flex: 1; }
+
+.col-6 {
+  width: 50%; }
 
 .card {
   display: inline-block;
   width: calc(50% - 5px);
   flex: auto; }
 
-@media (min-width: 50em) {
+.align-right {
+  justify-content: flex-end; }
+
+@media (min-width: 768px) {
   .card {
     width: calc(33.3333% - 5px); } }
+@media (max-width: 768px) {
+  .col-6 {
+    max-width: 100%;
+    flex: 0 0 100%; } }
+img {
+  max-width: 100%; }
+
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 131.25%;
+  border: 10px solid #FF8181;
+  background: #3A3C83;
+  padding: 10px;
+  color: #FF8181; }
+
+@media (min-width: 768px) {
+  html {
+    border: 20px solid #FF8181; } }
+html {
+  font-family: "inconsolata", monospaced;
+  font-size: 112.5%;
   -webkit-font-smoothing: antialiased; }
 
 p {
-  line-height: 1.35rem;
-  margin-top: 1.35rem;
+  line-height: 1.5rem;
+  margin-top: 0.75rem;
   margin-bottom: 0; }
 
 ul, ol {
-  margin-top: 1.35rem;
-  margin-bottom: 1.35rem; }
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 0;
+  vertical-align: baseline; }
   ul li, ol li {
-    line-height: 1.35rem; }
-  ul ul, ul ol, ol ul, ol ol {
-    margin-top: 0;
-    margin-bottom: 0; }
+    line-height: 1.5rem; }
 
 blockquote {
-  line-height: 1.35rem;
-  margin-top: 1.35rem;
-  margin-bottom: 1.35rem; }
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Tiempos Headline", serif;
-  margin-top: 1.35rem;
+  font-family: "neuzeit-grotesk", sans-serif;
+  margin-top: 1.5rem;
   margin-bottom: 0;
-  line-height: 1.35rem; }
+  line-height: 1; }
 
 h1 {
-  font-size: 3.6rem;
-  line-height: 4.05rem;
-  margin-top: 2.7rem; }
+  font-size: 2.2rem;
+  line-height: 3.75rem;
+  letter-spacing: -0.03em; }
 
 h2 {
-  font-size: 2.4rem;
-  line-height: 2.7rem;
-  margin-top: 2.7rem; }
+  font-size: 2rem;
+  line-height: 3rem; }
 
 h3 {
-  font-size: 1.2rem; }
+  font-size: 1rem; }
 
 h4 {
-  font-size: 0.6rem; }
+  font-size: 1rem; }
 
 h5 {
-  font-size: 0.4rem; }
+  font-size: 1rem; }
 
 h6 {
-  font-size: 0.3rem; }
+  font-size: 1rem; }
 
 table {
-  margin-top: 1.35rem;
+  margin-top: 1.5rem;
   border-spacing: 0px;
   border-collapse: collapse; }
 
 td, th {
   padding: 0;
-  line-height: 28.35px; }
+  line-height: 27px; }
 
 code {
-  vertical-align: bottom; }
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: bottom;
+  word-break: break-all;
+  word-wrap: break-word; }
 
 .lead {
-  font-size: 1.2rem; }
+  font-size: 1rem; }
 
 .hug {
   margin-top: 0; }
 
-@media (max-width: 500px) {
+a {
+  color: #FF8181;
+  text-decoration: none; }
+  a:hover, a:focus {
+    color: #ff4e4e;
+    text-decoration: underline; }
+
+@media (min-width: 500px) {
   html {
-    font-size: 18px; } }
-img {
-  max-width: 100%; }
+    font-size: 21px; } }
+.menu {
+  margin: 0;
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap; }
+
+.menu > li {
+  flex: 0 0 auto; }
+
+.menu > li > a {
+  display: flex;
+  flex-flow: row;
+  display: block;
+  padding: 1rem 1rem 1rem 0;
+  line-height: 1;
+  font-family: "neuzeit-grotesk", sans-serif;
+  font-weight: bold; }
+
+.menu.align-right > li > a {
+  padding: 1rem 0 1rem 1rem;
+  font-weight: normal; }
+
+@media (max-width: 768px) {
+  .menu {
+    justify-content: center; }
+
+  .menu > li > a {
+    text-align: center;
+    padding: 1rem; }
+
+  .menu.align-right > li > a {
+    text-align: center;
+    padding: .7rem; } }
