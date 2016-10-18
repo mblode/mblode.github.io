@@ -1,6 +1,8 @@
 ---
 title: Matthew Blode
 timezone: UTC
+sass:
+  style: compressed
 collections:
   posts:
     title: Posts

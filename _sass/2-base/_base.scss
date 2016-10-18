@@ -11,13 +11,6 @@ hr {
   border: 1px solid $primary;
 }
 
-::selection {
-  background: $primary; /* WebKit/Blink Browsers */
-}
-::-moz-selection {
-  background: $primary; /* Gecko Browsers */
-}
-
 .work--link {
   text-decoration: none;
 
