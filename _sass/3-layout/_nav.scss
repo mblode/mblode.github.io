@@ -1,6 +1,5 @@
 .menu {
   margin: 0;
-  margin-top: 24px;
   list-style-type: none;
   width: 100%;
   display: flex;
@@ -31,15 +30,16 @@
 @media (max-width: $sm) {
   .menu {
     justify-content: center;
+    margin-top: 0;
   }
 
   .menu > li > a {
     text-align: center;
-    padding: 1rem;
+    padding: 0 .7rem;
   }
 
   .menu.align-right > li > a {
       text-align: center;
-      padding: .7rem;
+      padding: 0 .7rem ;
     }
 }

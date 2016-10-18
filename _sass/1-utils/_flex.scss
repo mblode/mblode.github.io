@@ -1,57 +1,75 @@
 .container {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: $lg;
 }
 
 .row {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  margin-right: 20px;
 }
 
 .col {
   flex: 1;
 }
 
-.row-half {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 10px;
-  flex-wrap: wrap;
-  margin-right: 10px;
+.col-narrow {
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+  margin-top: $leading;
+  margin-bottom: 2.2 * $leading;
 }
-
-// .row-half .col {
-//   width: 49%;
-// }
 
 .col-6 {
-  width: 50%;
-  flex: 0 0 50%;
+  width: 49%;
+  flex: 0 0 49%;
   display: inline-block;
 }
 
-.card {
+.col-image {
+  width: 63%;
+  flex: 0 0 63%;
   display: inline-block;
-  width: calc(50% - 5px);
-  flex: auto;
+  margin-bottom: 2 * $leading;
+}
+
+.col-description {
+  width: 34%;
+  flex: 0 0 34%;
+  display: inline-block;
+  margin-bottom: 2 * $leading;
 }
 
 .align-right {
   justify-content: flex-end;
 }
 
-@media (min-width: $sm) {
-  .card {
-    width: calc(33.3333% - 5px);
+@media (max-width: $md) {
+  .col-narrow {
+    max-width: 100%;
+  }
+
+  .col-image,
+  .col-description {
+    width: 100%;
+    flex: 0 0 100%;
+    display: block;
+  }
+
+  .col-image {
+    margin: 0;
   }
 }
 
 @media (max-width: $sm) {
+  .col,
+  .col-narrow,
   .col-6 {
     width: 100%;
     flex: 0 0 100%;
+    display: block;
   }
 }
