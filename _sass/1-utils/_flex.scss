@@ -12,7 +12,9 @@
 }
 
 .col {
-  flex: 1;
+  flex: 0 0 100%;
+  width: 100%;
+  display: block;
 }
 
 .col-narrow {

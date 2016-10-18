@@ -1,8 +1,50 @@
 .footer {
-  background: $primary;
+  // background: $primary;
 }
 
-.footer--text {
+.footer--lets {
   text-align: center;
-  color: $accent;
+  display: block;
+  font-family: $heading;
+  margin-top: 2 * $leading;
+  font-weight: normal;
+}
+
+.footer--text a {
+  text-align: center;
+  display: block;
+  font-family: $heading;
+  margin-top: $leading;
+  text-decoration: underline;
+}
+
+.footer--links {
+  margin: 0;
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.footer--links > li {
+  flex: 0 0 auto;
+   margin-top: $leading;
+  margin-bottom: $leading;
+}
+
+.footer--links li a {
+  padding: .7rem;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:focus,
+  &:active {
+    color: darken($primary, 10);
+  }
 }

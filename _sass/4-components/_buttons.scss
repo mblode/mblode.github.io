@@ -1,11 +1,12 @@
 .btn {
-  border: 2px solid $primary;
+  border: 1px solid $primary;
   padding: .25rem .5rem;
   display: inline-block;
   vertical-align: middle;
-  font-size: 18px;
+  font-size: 16px;
+  text-decoration: none;
   &:hover {
-
+    text-decoration: underline;
   }
   &:focus,
   &:active {

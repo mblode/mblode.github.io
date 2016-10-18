@@ -1,5 +1,5 @@
 html {
-  font-family: $body;
+  font-family: $links;
   font-size: $baseFontSize / 16 * 100%;
   -webkit-font-smoothing: antialiased;
 }
@@ -85,7 +85,7 @@ code {
 
 a {
   color: $primary;
-  text-decoration: none;
+  // text-decoration: none;
   font-family: $links;
   line-height: $line-height;
   margin-top: $leading / 2;
@@ -100,8 +100,8 @@ a {
 .caption {
   text-transform: uppercase;
   font-family: $links;
-  color: $secondary;
-  font-size: 18px;
+  // color: $secondary;
+  font-size: 16px;
 }
 
 @media (min-width: 500px) {

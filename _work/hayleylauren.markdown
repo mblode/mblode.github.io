@@ -1,10 +1,10 @@
 ---
-title: Digital Art
-date: 2016-10-08 01:16:00 Z
+title: Hayley Lauren Design
+date: 2016-10-07 02:58:00 Z
 image: /uploads/big.png
-year: SPRING 2014
-tag: Art & Design
+year: SUMMER 2016
+tag: Website Design & Development
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem incidunt dolore mollitia cum quas voluptates unde vel saepe accusantium quod amet eveniet dolorem natus earum, architecto deserunt esse nisi libero!
-link: https://www.behance.net/mblode_art
-link-title: Digital Drawings
+link: http://hayleylaurendesign.com/
+link-title: Hayley Lauren
 ---

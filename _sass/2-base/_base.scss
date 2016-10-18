@@ -3,17 +3,25 @@ img {
 }
 
 html {
-  border: 10px solid $primary;
   background: $accent;
-  color: $black;
-}
-
-@media (min-width: $sm) {
-  html {
-    border: 20px solid $primary;
-  }
+  color: $primary;
 }
 
 hr {
-  border: 2px solid $primary;
+  border: 1px solid $primary;
+}
+
+::selection {
+  background: $primary; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: $primary; /* Gecko Browsers */
+}
+
+.work--link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
 }

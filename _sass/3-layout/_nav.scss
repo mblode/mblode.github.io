@@ -12,19 +12,33 @@
 }
 
 .menu > li > a {
-    display: flex;
-    flex-flow: row;
-    display: block;
-    padding: .7rem;
-    padding-left: 0;
-    font-family: $heading;
-    font-weight: bold;
+  display: flex;
+  flex-flow: row;
+  display: block;
+  padding: .7rem;
+  padding-left: 0;
+  font-family: $heading;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:focus,
+  &:active {
+    color: darken($primary, 10);
+  }
 }
 
 .menu.align-right > li > a {
     padding: .5rem 1rem;
     font-weight: normal;
     font-family: $links;
+}
+
+.link--active {
+  text-decoration: underline !important;
 }
 
 @media (max-width: $sm) {
