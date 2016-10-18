@@ -491,11 +491,19 @@ textarea,
   margin-right: 10px; }
 
 .col {
-  width: 100%;
   flex: 1; }
 
+.row-half {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  flex-wrap: wrap;
+  margin-right: 10px; }
+
 .col-6 {
-  width: 50%; }
+  width: 50%;
+  flex: 0 0 50%;
+  display: inline-block; }
 
 .card {
   display: inline-block;
@@ -510,22 +518,25 @@ textarea,
     width: calc(33.3333% - 5px); } }
 @media (max-width: 768px) {
   .col-6 {
-    max-width: 100%;
+    width: 100%;
     flex: 0 0 100%; } }
 img {
   max-width: 100%; }
 
 html {
-  border: 10px solid #FF8181;
-  background: #3A3C83;
+  border: 10px solid #1F7DD3;
+  background: #efefef;
   padding: 10px;
-  color: #FF8181; }
+  color: rgba(0, 0, 0, 0.8); }
 
 @media (min-width: 768px) {
   html {
-    border: 20px solid #FF8181; } }
+    border: 20px solid #1F7DD3; } }
+hr {
+  border: 2px solid #1F7DD3; }
+
 html {
-  font-family: "inconsolata", monospaced;
+  font-family: "neuzeit-grotesk", sans-serif;
   font-size: 112.5%;
   -webkit-font-smoothing: antialiased; }
 
@@ -549,21 +560,20 @@ blockquote {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "neuzeit-grotesk", sans-serif;
-  margin-top: 1.5rem;
+  margin-top: 10px;
   margin-bottom: 0;
-  line-height: 1; }
+  line-height: 1.2;
+  color: #1F7DD3; }
 
 h1 {
   font-size: 2.2rem;
-  line-height: 3.75rem;
   letter-spacing: -0.03em; }
 
 h2 {
-  font-size: 2rem;
-  line-height: 3rem; }
+  font-size: 2rem; }
 
 h3 {
-  font-size: 1rem; }
+  font-size: 1.2rem; }
 
 h4 {
   font-size: 1rem; }
@@ -598,17 +608,27 @@ code {
   margin-top: 0; }
 
 a {
-  color: #FF8181;
-  text-decoration: none; }
+  color: #1F7DD3;
+  text-decoration: none;
+  font-family: "inconsolata", sans-serif;
+  line-height: 1.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem; }
   a:hover, a:focus {
-    color: #ff4e4e;
+    color: #1863a7;
     text-decoration: underline; }
+
+.caption {
+  text-transform: uppercase;
+  font-family: "inconsolata", sans-serif;
+  color: rgba(0, 0, 0, 0.5); }
 
 @media (min-width: 500px) {
   html {
     font-size: 21px; } }
 .menu {
   margin: 0;
+  margin-top: 24px;
   list-style-type: none;
   width: 100%;
   display: flex;
@@ -622,14 +642,15 @@ a {
   display: flex;
   flex-flow: row;
   display: block;
-  padding: 1rem 1rem 1rem 0;
-  line-height: 1;
+  padding: .7rem;
+  padding-left: 0;
   font-family: "neuzeit-grotesk", sans-serif;
   font-weight: bold; }
 
 .menu.align-right > li > a {
-  padding: 1rem 0 1rem 1rem;
-  font-weight: normal; }
+  padding: .5rem 1rem;
+  font-weight: normal;
+  font-family: "inconsolata", sans-serif; }
 
 @media (max-width: 768px) {
   .menu {
@@ -642,3 +663,12 @@ a {
   .menu.align-right > li > a {
     text-align: center;
     padding: .7rem; } }
+.btn {
+  border: 2px solid #1F7DD3;
+  padding: .25rem .5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px; }
+  .btn:focus, .btn:active {
+    background: #1F7DD3;
+    color: #efefef; }

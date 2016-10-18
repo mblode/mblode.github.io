@@ -1,0 +1,15 @@
+.btn {
+  border: 2px solid $primary;
+  padding: .25rem .5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  &:hover {
+
+  }
+  &:focus,
+  &:active {
+    background: $primary;
+    color: $accent;
+  }
+}

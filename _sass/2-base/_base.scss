@@ -3,14 +3,18 @@ img {
 }
 
 html {
-  border: 10px solid $red;
-  background: $purple;
+  border: 10px solid $primary;
+  background: $accent;
   padding: 10px;
-  color: $red;
+  color: $black;
 }
 
 @media (min-width: $sm) {
   html {
-    border: 20px solid $red;
+    border: 20px solid $primary;
   }
+}
+
+hr {
+  border: 2px solid $primary;
 }

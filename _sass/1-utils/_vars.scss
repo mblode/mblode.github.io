@@ -9,10 +9,12 @@ $leading: $baseLineHeight * 1rem;
 $line-height: $baseLineHeight * 1rem;
 $scale: 1;
 
-$body: "inconsolata", monospaced;
+$body: "neuzeit-grotesk", sans-serif;
 $heading: "neuzeit-grotesk", sans-serif;
+$links: "inconsolata", sans-serif;
 
 $white: #efefef;
-$black: rgba(0, 0, 0, .87);
-$red: #FF8181;
-$purple: #3A3C83;
+$black: rgba(0,0,0,.8);
+$secondary: rgba(0,0,0,.5);
+$primary: #1F7DD3;
+$accent: #efefef;

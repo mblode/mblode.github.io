@@ -1,5 +1,6 @@
 .menu {
   margin: 0;
+  margin-top: 24px;
   list-style-type: none;
   width: 100%;
   display: flex;
@@ -15,15 +16,16 @@
     display: flex;
     flex-flow: row;
     display: block;
-    padding: 1rem 1rem 1rem 0;
-    line-height: 1;
+    padding: .7rem;
+    padding-left: 0;
     font-family: $heading;
     font-weight: bold;
 }
 
 .menu.align-right > li > a {
-    padding: 1rem 0 1rem 1rem;
+    padding: .5rem 1rem;
     font-weight: normal;
+    font-family: $links;
 }
 
 @media (max-width: $sm) {

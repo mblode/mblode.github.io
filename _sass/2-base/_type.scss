@@ -28,23 +28,22 @@ blockquote {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading;
-  margin-top: $leading;
+  margin-top: 10px;
   margin-bottom: 0;
-  line-height: 1;
+  line-height: 1.2;
+  color: $primary;
 }
 
 h1 {
   font-size: 2.2 * 1rem;
-  line-height: 2.5 * $leading;
   letter-spacing: -0.03em;
 }
 
 h2 {
   font-size: 2 * 1rem;
-  line-height: 2 * $leading;
 }
 h3 {
-  font-size: 1  * 1rem;
+  font-size: 1.2  * 1rem;
 }
 h4 {
   font-size: 1rem;
@@ -84,13 +83,23 @@ code {
 }
 
 a {
-  color: $red;
+  color: $primary;
   text-decoration: none;
+  font-family: $links;
+  line-height: $line-height;
+  margin-top: $leading / 2;
+  margin-bottom: $leading / 2;
   &:hover,
   &:focus {
-    color: darken($red, 10);
+    color: darken($primary, 10);
     text-decoration: underline;
   }
+}
+
+.caption {
+  text-transform: uppercase;
+  font-family: $links;
+  color: $secondary;
 }
 
 @media (min-width: 500px) {

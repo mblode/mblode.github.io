@@ -12,12 +12,25 @@
 }
 
 .col {
-  width: 100%;
   flex: 1;
 }
 
+.row-half {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  flex-wrap: wrap;
+  margin-right: 10px;
+}
+
+// .row-half .col {
+//   width: 49%;
+// }
+
 .col-6 {
   width: 50%;
+  flex: 0 0 50%;
+  display: inline-block;
 }
 
 .card {
@@ -38,7 +51,7 @@
 
 @media (max-width: $sm) {
   .col-6 {
-    max-width: 100%;
+    width: 100%;
     flex: 0 0 100%;
   }
 }
