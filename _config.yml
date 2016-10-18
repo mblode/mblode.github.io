@@ -1,8 +1,6 @@
 ---
 title: Matthew Blode
 timezone: UTC
-sass:
-  style: compressed
 collections:
   posts:
     title: Posts
@@ -30,6 +28,8 @@ defaults:
   values:
     layout: post
     permalink: "/work/:title/"
+sass:
+  style: compressed
 permalink: pretty
 markdown: kramdown
 kramdown:
