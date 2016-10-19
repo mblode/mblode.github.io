@@ -93,7 +93,7 @@ a {
   margin-bottom: $leading / 2;
   &:hover,
   &:focus {
-    color: darken($primary, 10);
+    color: darken($primary, 15);
     text-decoration: underline;
   }
 }
