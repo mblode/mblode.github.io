@@ -73,9 +73,9 @@
 }
 
 @media (max-width: $sm) {
-  // .row--center {
-  //   min-height: 60vh;
-  // }
+  .row--center {
+    min-height: 60vh;
+  }
 
   .col,
   .col-narrow,
