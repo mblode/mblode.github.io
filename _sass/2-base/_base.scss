@@ -1,10 +1,12 @@
 img {
   max-width: 100%;
-  border: 0px solid $accent;
+  border: 0px solid $primary;
+  box-shadow: 0 0 $accent;
   transition: $trans;
 
   &:hover {
-    border: 10px solid $accent;
+    border: 10px solid $primary;
+    box-shadow: -10px 10px $accent;
   }
 }
 
