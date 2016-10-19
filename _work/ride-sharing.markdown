@@ -3,7 +3,7 @@ title: Ride Sharing Prototype
 date: 2016-09-07 01:47:00 Z
 tags:
 - App UI/UX Design
-image: "/uploads/car-4.png"
+image: "/uploads/_uploads/car-4.png"
 year: SPRING 2016
 link: https://marvelapp.com/jc65a7
 link-title: App prototype
