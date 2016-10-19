@@ -1,8 +1,9 @@
 ---
 title: Digital Art
 date: 2014-10-08 01:16:00 Z
-tag: Art & Design
-image: /uploads/big.png
+tags:
+- Art & Design
+image: "/uploads/big.png"
 year: SPRING 2014
 link: https://www.behance.net/mblode_art
 link-title: Digital Drawings
