@@ -14,7 +14,9 @@ hr {
 .work--link {
   text-decoration: none;
 
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     text-decoration: none;
   }
 }

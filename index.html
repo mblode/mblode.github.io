@@ -11,19 +11,19 @@ date: 2016-10-08 00:51:00 Z
 </div>
 
 <div class="row" id="work">
-  {% for work in site.work %}
+  {% for work in site.work reversed %}
   <div class="col-image">
-    <a href="{{ work.url }}">
-      <img class="card-img-top" src="{{ "{{work.image}}" | prepend: site.baseurl }}" alt="Matthew Blode's portfolio">
+    <a href="{{ work.link }}">
+      <img src="{{work.image}}" alt="Matthew Blode's portfolio">
     </a>
   </div>
   <div class="col-description">
-    <a href="{{ work.url }}" class="work--link">
+    <a href="{{ work.link }}" class="work--link">
       <p class="caption">{{ work.year }}</p>
       <h3>{{ work.title }}</h3>
       <h4>{{ work.tag }}</h4>
-      <hr class="hard-rule"/>
-      <p>{{ work.description }}</p>
+      <hr/>
+      <p>{{ work.excerpt }}</p>
     </a>
     <a href="{{ work.link }}" class="btn">{{ work.link-title }} →</a>
   </div>

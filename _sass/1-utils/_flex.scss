@@ -74,4 +74,9 @@
     flex: 0 0 100%;
     display: block;
   }
+
+  .col-narrow {
+    margin-top: $leading / 2;
+    margin-bottom: 2 * $leading;
+  }
 }

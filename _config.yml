@@ -2,9 +2,6 @@
 title: Matthew Blode
 timezone: UTC
 collections:
-  posts:
-    title: Posts
-    output: true
   uploads:
     title: Uploads
     output: true
@@ -12,12 +9,6 @@ collections:
     title: Work
     output: true
 defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    permalink: "/menu/:title/"
 - scope:
     path: ''
   values:

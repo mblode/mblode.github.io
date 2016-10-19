@@ -1,14 +1,13 @@
 ---
-title: Self-Driving Car Concept
-date: 2016-09-08 01:47:00 Z
-tag: 3D Modelling
+title: Ride Sharing Prototype
+date: 2016-09-07 01:47:00 Z
+tag: App UI/UX Design
 image: /uploads/car-4.png
 year: SPRING 2016
-link: https://www.behance.net/gallery/42720279/Tesla-Model-A-Self-driving-concept-vehicle
-link-title: Car Concept
+link: https://marvelapp.com/jc65a7
+link-title: App prototype
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
 incidunt dolore mollitia cum quas voluptates unde vel saepe accusantium quod amet
 eveniet dolorem natus earum, architecto deserunt esse nisi libero!
-
