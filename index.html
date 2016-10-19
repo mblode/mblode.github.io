@@ -11,7 +11,10 @@ date: 2016-10-08 00:51:00 Z
 </div>
 
 <div class="row" id="work">
-  <div class="col nav"><a href="#work" class="nav--title">Selected projects</a></div>
+  <div class="col nav">
+      <a href="#work" class="work--title"><h2 class="work--h2">Selected projects</h2></a>
+    </h2>
+  </div>
   {% for work in site.work reversed %}
   <div class="col-image">
     <a href="{{ work.link }}">
@@ -19,13 +22,13 @@ date: 2016-10-08 00:51:00 Z
     </a>
   </div>
   <div class="col-description">
+    <p class="caption">{{ work.year }}</p>
     <a href="{{ work.link }}" class="work--link">
-      <p class="caption">{{ work.year }}</p>
       <h3>{{ work.title }}</h3>
       <h4>{{ work.tags }}</h4>
       <hr/>
-      <p>{{ work.excerpt }}</p>
     </a>
+    <p>{{ work.excerpt }}</p>
     <a href="{{ work.link }}" class="btn">{{ work.link-title }} →</a>
   </div>
   {% endfor %}

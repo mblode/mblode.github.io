@@ -5,14 +5,17 @@
   vertical-align: middle;
   text-decoration: none;
   font-size: 18px;
+  transition: $trans;
 
   &:hover {
     text-decoration: underline;
+    border: 1px solid $accent;
   }
 
   &:focus,
   &:active {
-    background: $primary;
-    color: $accent;
+    background: $accent;
+    color: $background;
+    border: 1px solid $accent;
   }
 }

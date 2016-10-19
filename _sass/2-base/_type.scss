@@ -86,14 +86,14 @@ code {
 
 a {
   color: $primary;
-  // text-decoration: none;
   font-family: $links;
   line-height: $line-height;
   margin-top: $leading / 2;
   margin-bottom: $leading / 2;
+  transition: color $trans;
   &:hover,
   &:focus {
-    color: darken($primary, 15);
+    color: $accent;
     text-decoration: underline;
   }
 }

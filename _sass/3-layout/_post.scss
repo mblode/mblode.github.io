@@ -1,0 +1,55 @@
+.work--title {
+  align-text: center;
+  padding: .7rem;
+  margin-bottom: $leading;
+  text-decoration: none;
+  transition: $trans;
+
+  .work--h2 {
+    font-size: 21px;
+    transition: $trans;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    .work--h2 {
+      color: $accent !important;
+    }
+  }
+
+  &:focus,
+  &:active {
+    .work--h2 {
+      color: $accent !important;
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .work--h2 {
+    font-size: 22px !important;
+  }
+}
+
+.work--link {
+  text-decoration: none;
+  transition: $trans;
+
+  h3, h4, hr {
+    transition: $trans;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+    h3, h4 {
+      text-decoration: none;
+      color: $accent !important;
+    }
+
+    hr {
+      border-color: $accent;
+    }
+  }
+}

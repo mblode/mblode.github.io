@@ -9,9 +9,11 @@ $leading: $baseLineHeight * 1rem;
 $line-height: $baseLineHeight * 1rem;
 $scale: 1;
 
+$trans: .4s ease-in-out;
+
 $body: "neuzeit-grotesk", sans-serif;
 $heading: "neuzeit-grotesk", sans-serif;
-$links: "source-code-pro", "inconsolata", monospace;
+$links: "source-code-pro", monospace;
 
 $white: #efefef;
 $black: rgba(0,0,0,.8);
