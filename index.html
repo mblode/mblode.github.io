@@ -3,14 +3,15 @@ title: Home
 date: 2016-10-08 00:51:00 Z
 ---
 
-<div class="row">
-  <div class="col-narrow">
+<div class="row--center">
+  <div class="col--narrow">
     <h1>Hi, my name is Matthew Blode and I make things for the internet.</h1>
     <p>I'm a designer and front-end developer from Melbourne, Australia. I currently work at Expense Check.</p>
   </div>
 </div>
 
 <div class="row" id="work">
+  <div class="col nav"><a href="#work" class="nav--title">Selected projects</a></div>
   {% for work in site.work reversed %}
   <div class="col-image">
     <a href="{{ work.link }}">
@@ -21,7 +22,7 @@ date: 2016-10-08 00:51:00 Z
     <a href="{{ work.link }}" class="work--link">
       <p class="caption">{{ work.year }}</p>
       <h3>{{ work.title }}</h3>
-      <h4>{{ work.tag }}</h4>
+      <h4>{{ work.tags }}</h4>
       <hr/>
       <p>{{ work.excerpt }}</p>
     </a>

@@ -1,22 +1,12 @@
-.menu {
-  margin: 0;
-  list-style-type: none;
-  width: 100%;
-  display: flex;
+.nav {
   align-items: center;
-  flex-wrap: nowrap;
-}
-
-.menu>li {
-  flex: 0 0 auto;
-}
-
-.menu > li > a {
+  justify-content: center;
   display: flex;
-  flex-flow: row;
-  display: block;
+}
+
+.nav--title {
+  align-text: center;
   padding: .7rem;
-  padding-left: 0;
   font-family: $heading;
   font-weight: bold;
   text-decoration: none;
@@ -35,29 +25,8 @@
   }
 }
 
-.menu.align-right > li > a {
-    padding: .5rem 1rem;
-    font-weight: normal;
-    font-family: $links;
-}
-
-.link--active {
-  text-decoration: underline !important;
-}
-
 @media (max-width: $sm) {
-  .menu {
-    justify-content: center;
-    margin-top: 0;
+  .nav--title {
+    font-size: 22px;
   }
-
-  .menu > li > a {
-    text-align: center;
-    padding: 0 .7rem;
-  }
-
-  .menu.align-right > li > a {
-      text-align: center;
-      padding: 0 .7rem ;
-    }
 }

@@ -1,5 +1,5 @@
 ---
-title: Ride Sharing Prototype
+title: Ridesharing App Prototype
 date: 2016-09-07 01:47:00 Z
 tags:
 - App UI/UX Design
