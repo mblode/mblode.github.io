@@ -5,9 +5,11 @@
   vertical-align: middle;
   font-size: 18px;
 
+  &:hover,
   &:focus,
   &:active {
     background: $accent;
     color: $background;
+    text-decoration: none;
   }
 }

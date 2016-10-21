@@ -1,6 +1,6 @@
 img {
   max-width: 100%;
-  border: 1px solid $primary;
+  border: 2px solid $primary;
 
   &:hover {
     border-color: $accent;
@@ -17,17 +17,12 @@ hr {
 }
 
 .work--link {
-
-  h3, h4 {
-    text-decoration: none;
-  }
-
   &:hover,
   &:focus {
     text-decoration: none;
+
     h3, h4 {
-      text-decoration: none;
-      color: $accent !important;
+      color: $accent;
     }
 
     hr {
