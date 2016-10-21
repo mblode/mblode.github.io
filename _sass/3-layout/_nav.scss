@@ -14,15 +14,6 @@
   &:hover {
     text-decoration: underline;
   }
-
-  &:focus,
-  &:active {
-    color: darken($primary, 10);
-  }
-
-  &:visited {
-    text-decoration: none;
-  }
 }
 
 @media (max-width: $sm) {

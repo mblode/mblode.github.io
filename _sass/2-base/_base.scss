@@ -1,12 +1,10 @@
 img {
   max-width: 100%;
-  border: 0px solid $primary;
-  box-shadow: 0 0 $accent;
+  border: 1px solid $primary;
   transition: $trans;
 
   &:hover {
-    border: 10px solid $primary;
-    box-shadow: -10px 10px $accent;
+    border-color: $accent;
   }
 }
 
@@ -20,11 +18,13 @@ hr {
 }
 
 .work--link {
-  text-decoration: none;
+
+  h3, h4 {
+    text-decoration: none;
+  }
 
   &:hover,
-  &:focus,
-  &:active {
+  &:focus {
     text-decoration: none;
     h3, h4 {
       text-decoration: none;
