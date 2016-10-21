@@ -15,7 +15,6 @@
   display: block;
   font-family: $heading;
   margin-top: $leading;
-  text-decoration: underline;
 }
 
 .footer--links {
@@ -31,21 +30,11 @@
 
 .footer--links > li {
   flex: 0 0 auto;
-   margin-top: $leading;
+  margin-top: $leading;
   margin-bottom: $leading;
 }
 
 .footer--links li a {
   padding: .7rem;
   text-align: center;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-
-  &:focus,
-  &:active {
-    color: darken($primary, 10);
-  }
 }

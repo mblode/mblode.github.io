@@ -9,6 +9,4 @@ link: http://coolcactus.com.au/
 link-title: Cool Cactus
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-incidunt dolore mollitia cum quas voluptates unde vel saepe accusantium quod amet
-eveniet dolorem natus earum, architecto deserunt esse nisi libero!
+Cool Cactus is a business in Melbourne that sells indoor plants, pots and other cool things. They reached out to me to help create an interactive website design with clear and consise details about the store, whilst representing their contemporary brand identity.

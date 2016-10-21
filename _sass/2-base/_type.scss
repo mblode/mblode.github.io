@@ -90,6 +90,7 @@ a {
   line-height: $line-height;
   margin-top: $leading / 2;
   margin-bottom: $leading / 2;
+  text-decoration: none;
   &:hover,
   &:focus {
     color: $accent;

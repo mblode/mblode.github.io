@@ -9,7 +9,5 @@ link: https://www.behance.net/gallery/42720279/Tesla-Model-A-Self-driving-concep
 link-title: Car Concept
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-incidunt dolore mollitia cum quas voluptates unde vel saepe accusantium quod amet
-eveniet dolorem natus earum, architecto deserunt esse nisi libero!
+Tesla Model A is a fully autonomous self-driving concept vehicle powered by a high-performance electric battery. The car's sleek aerodynamic form is inspired by a dolphin's streamlined curves.
 

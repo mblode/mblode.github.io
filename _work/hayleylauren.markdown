@@ -9,5 +9,5 @@ link: http://hayleylaurendesign.com/
 link-title: Hayley Lauren
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur iure recusandae molestiae praesentium, sit nesciunt non nostrum minus nulla ad, omnis dignissimos provident, ullam aut, quo ducimus aliquam ratione eveniet.
+Hayley Lauren is a textile designer and artist based in Melbourne, Australia. Hayley’s art and designs come in a variety of styles and mediums. From watercolour to organic line work, to stencils cuts and detailed wildlife drawings. Her free flowing designs are a creative expression and insight into the way she sees the world.
 

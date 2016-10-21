@@ -9,4 +9,4 @@ link: https://github.com/mblode/
 link-title: GitHub
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. At exercitationem repellendus consectetur eum animi hic, vitae deserunt distinctio, officia laborum maiores non nobis ab provident cum perspiciatis quod optio mollitia.
+I have created a large variety of open source projects and experiments released freely on GitHub. This includes my two highly popular "Marx – A classless CSS reset (perfect for communists)" and "Burger – The minimal hamburger menu with fullscreen navigation" projects.
