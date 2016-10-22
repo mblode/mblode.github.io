@@ -25,13 +25,8 @@ defaults:
 sass:
   style: compressed
 permalink: pretty
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-highlighter: rouge
-codepen_username: mblode
-github_username: mblode
+gems:
+- jekyll-autoprefixer
 autoprefixer:
   browsers:
   - last 2 versions
