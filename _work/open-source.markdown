@@ -3,7 +3,7 @@ title: Open Source Projects
 date: 2013-05-05 02:58:00 Z
 tags:
 - Front-end Development
-image: "/uploads/big.png"
+image: "/uploads/code.jpg"
 year: SUMMER 2013 – ONGOING
 link: https://github.com/mblode/
 link-title: GitHub
