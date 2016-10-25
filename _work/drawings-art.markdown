@@ -3,7 +3,7 @@ title: Drawings & Digital Art
 date: 2013-12-08 01:16:00 Z
 tags:
 - Art & Design
-image: "/uploads/big.png"
+image: "/uploads/walter.JPG"
 year: SUMMER 2013 – ONGOING
 link: https://www.behance.net/mblode_art
 link-title: Digital Drawings
