@@ -9,4 +9,4 @@ link: https://www.behance.net/mblode_art
 link-title: Digital Drawings
 ---
 
-Here is a digital artwork of The Notorious B.I.G. It is drawn entirely on Photoshop using a Wacom Pen and Touch. This is a collection of all of my digital artworks within the last years. All were done on Adobe Photoshop.
+Here is my Behance where I post all of my digital and pencil artworks. The digital work is drawn using Photoshop using a Wacom Bamboo tablet. 
