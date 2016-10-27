@@ -1,5 +1,5 @@
 html {
-  font-family: $links;
+  font-family: $body;
   font-size: $baseFontSize / 16 * 100%;
   -webkit-font-smoothing: antialiased;
 }
@@ -96,6 +96,10 @@ a {
     color: $accent;
     text-decoration: underline;
   }
+}
+
+p a {
+  font-family: $body;
 }
 
 .caption {
