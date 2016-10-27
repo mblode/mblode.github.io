@@ -9,4 +9,8 @@ link: https://github.com/mblode/
 link-title: GitHub
 ---
 
-I have created a large variety of open source projects and experiments released freely on GitHub. This includes my two highly popular "Marx – A classless CSS reset (perfect for communists)" and "Burger – The minimal hamburger menu with fullscreen navigation" projects.
+I have created a large variety of open source projects and experiments released freely on GitHub. This includes two of my highly popular projects:
+
+* [Marx – A classless CSS reset (perfect for communists)](http://matthewblode.com/marx/)
+
+* [Burger – The minimal hamburger menu with full screen navigation](http://codepen.io/mblode/full/qEGWwB/)
