@@ -9,4 +9,4 @@ link: https://github.com/mblode/
 link-title: GitHub
 ---
 
-I have created a large variety of open source projects and experiments released freely on GitHub. This includes two of my highly popular projects: [Marx)](http://matthewblode.com/marx/) and [Burger](http://codepen.io/mblode/full/qEGWwB/).
+I have created a large variety of open source projects and experiments released freely on GitHub. This includes two of my highly popular projects: [Marx](http://matthewblode.com/marx/) and [Burger](http://codepen.io/mblode/full/qEGWwB/).
