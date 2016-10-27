@@ -9,4 +9,4 @@ link: https://www.behance.net/mblode_art
 link-title: Digital Drawings
 ---
 
-Here is my Behance where I post all of my digital and pencil artworks. The digital work is drawn using Photoshop using a Wacom Bamboo tablet. 
+Over the years I have posted my pencil drawings and digital artworks on Behance. The digital work is drawn on Photoshop using a Wacom Bamboo tablet.
