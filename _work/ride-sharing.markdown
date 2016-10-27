@@ -9,4 +9,4 @@ link: https://marvelapp.com/jc65a7
 link-title: App prototype
 ---
 
-I have designed and created a prototype for a Tesla app which would allow users to request the “Model A”, self-driving vehicle to pick them up from their location. The vehicle would then autonomously drive the passenger to their destination. It is as simple as tapping a button and getting a ride.
+I have designed and created a prototype for a Tesla app which would allow users to request the “Model A” self-driving vehicle to pick them up from their location. The vehicle would then autonomously drive the passenger to their destination. It is as simple as tapping a button and getting a ride.
