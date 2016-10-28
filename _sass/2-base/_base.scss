@@ -1,4 +1,4 @@
-img {
+a img {
   max-width: 100%;
   border: 2px solid $primary;
 
@@ -6,6 +6,15 @@ img {
     border-color: $accent;
   }
 }
+
+// .img--center {
+//   margin: 0 auto;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   width: 100px;
+//   height: 100px;
+// }
 
 html {
   background: $background;
