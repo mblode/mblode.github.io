@@ -9,4 +9,4 @@ link: https://www.behance.net/gallery/42720279/Tesla-Model-A-Self-driving-concep
 link-title: Car Concept
 ---
 
-For a school project I designed and 3D modelled a fully autonomous, self-driving concept vehicle that is powered by a high-performance electric battery. The car's sleek aerodynamic form is inspired by a dolphin's streamlined curves.
+For a school project I designed and 3D modelled a fully autonomous, self-driving concept vehicle that is powered by a high-performance electric battery. The car&rsquo;s sleek aerodynamic form is inspired by a dolphin&rsquo;s streamlined curves.
