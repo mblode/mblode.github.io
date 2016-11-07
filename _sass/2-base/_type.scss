@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
   margin-bottom: 0;
   line-height: 1.2;
-  color: $primary;
+  color: $accent;
 }
 
 h1 {
@@ -84,7 +84,7 @@ code {
 }
 
 a {
-  color: $accent;
+  color: $primary;
   font-family: $links;
   line-height: $line-height;
   margin-top: $leading / 2;
@@ -92,14 +92,25 @@ a {
   text-decoration: none;
   &:hover,
   &:focus {
-    color: $accent;
+    color: $primary;
     text-decoration: underline;
   }
 }
 
-p a {
+p a,
+h1 a {
   font-family: $body;
   color: $primary;
+}
+
+a h1,
+a h2,
+a h3,
+a h4,
+a h5,
+a h6 {
+  color: $primary;
+  font-family: $body;
 }
 
 .caption {

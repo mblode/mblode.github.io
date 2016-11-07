@@ -1,9 +1,11 @@
 a img {
   max-width: 100%;
   border: 2px solid $primary;
+  transition: $trans;
 
   &:hover {
     border-color: $accent;
+    box-shadow: -5px 5px 0 $third;
   }
 }
 
@@ -26,6 +28,10 @@ hr {
 }
 
 .work--link {
+  h3, h4, hr {
+    transition: $trans;
+  }
+
   &:hover,
   &:focus {
     text-decoration: none;

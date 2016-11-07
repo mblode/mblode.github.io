@@ -1,16 +1,19 @@
 .btn {
-  border: 1px solid $accent;
+  border: 1px solid $primary;
   padding: .25rem .5rem;
   display: inline-block;
   vertical-align: middle;
   font-size: 18px;
   margin: 0;
+  transition: $trans;
 
   &:hover,
   &:focus,
   &:active {
     background: $accent;
     color: $background;
+    border-color: $accent;
     text-decoration: none;
+    box-shadow: 5px 5px 0 $third;
   }
 }
