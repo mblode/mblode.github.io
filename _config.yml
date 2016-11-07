@@ -25,6 +25,3 @@ defaults:
 sass:
   style: compressed
 permalink: pretty
-# exclude:
-#   - node_modules
-#   - _uploads
