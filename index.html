@@ -6,8 +6,7 @@ date: 2016-10-08 00:51:00 Z
 <div class="row--center">
   <div class="col--narrow">
     <h1>Hi, my name is Matthew Blode and I make things for the internet.</h1>
-    <p>I&rsquo;m a designer and front-end developer from Melbourne, Australia. <br>
-    I currently work at <a href="http://www.expensecheck.com.au/">Expense Check</a>.</p>
+    <p>I&rsquo;m a designer and front-end developer from Melbourne, Australia. I currently work at <a href="http://www.expensecheck.com.au/">Expense Check</a>.</p>
   </div>
 </div>
 
@@ -18,19 +17,21 @@ date: 2016-10-08 00:51:00 Z
   </div>
   {% for work in site.work reversed %}
   <div class="col-image">
-    <a href="{{ work.link }}">
+    <a href="{{ work.link }}" target="_blank">
       <img src="{{work.image}}" alt="Matthew Blode's portfolio">
     </a>
   </div>
   <div class="col-description">
     <p class="caption">{{ work.year }}</p>
-    <a href="{{ work.link }}" class="work--link">
+    <a href="{{ work.link }}" class="work--link" target="_blank">
       <h3>{{ work.title }}</h3>
       <h4>{{ work.tags }}</h4>
       <hr/>
     </a>
     <p>{{ work.excerpt }}</p>
-    <a href="{{ work.link }}" class="btn">{{ work.link-title }} →</a>
+    <a href="{{ work.link }}" class="btn" target="_blank">
+      {{ work.link-title }} →
+    </a>
   </div>
   {% endfor %}
 </div>

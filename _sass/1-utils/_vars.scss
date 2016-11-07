@@ -9,7 +9,7 @@ $leading: $baseLineHeight * 1rem;
 $line-height: $baseLineHeight * 1rem;
 $scale: 1;
 
-$trans: .4s ease-in-out;
+$trans: .3s cubic-bezier(0.4, 0.0, 0.2, 1);
 
 $body: "Apercu Pro", sans-serif;
 $heading: "Apercu Pro", sans-serif;
@@ -21,4 +21,4 @@ $secondary: rgba(0,0,0,.5);
 $primary: #3878FF;
 $accent: #EF4621;
 $third: #F9B5A6;
-$background: #fff;
+$background: #F7F5EF;

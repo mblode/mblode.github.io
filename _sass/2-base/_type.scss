@@ -90,9 +90,10 @@ a {
   margin-top: $leading / 2;
   margin-bottom: $leading / 2;
   text-decoration: none;
+  transition: $trans;
   &:hover,
   &:focus {
-    color: $primary;
+    color: $accent;
     text-decoration: underline;
   }
 }
