@@ -2,21 +2,13 @@ a img {
   max-width: 100%;
   border: 2px solid $primary;
   transition: $trans;
+  margin-bottom: 1rem;
 
   &:hover {
     border-color: $accent;
     box-shadow: -5px 5px 0 $third;
   }
 }
-
-// .img--center {
-//   margin: 0 auto;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   width: 100px;
-//   height: 100px;
-// }
 
 html {
   background: $background;
