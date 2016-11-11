@@ -4,7 +4,7 @@ date: 2014-05-05 02:58:00 Z
 tags:
 - Front-end Development
 image: "/uploads/code.jpg"
-year: AUTUMN 2014 &ndash; ONGOING
+year: Autumn 2014 &ndash; Ongoing
 link: https://github.com/mblode/
 link-title: GitHub
 ---

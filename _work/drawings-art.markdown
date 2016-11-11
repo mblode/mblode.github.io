@@ -4,7 +4,7 @@ date: 2013-12-08 01:16:00 Z
 tags:
 - Art & Design
 image: "/uploads/walter.JPG"
-year: Summer 2013 &ndash; ONGOING
+year: Summer 2013 &ndash; Ongoing
 link: https://www.behance.net/mblode_art
 link-title: Digital Drawings
 ---

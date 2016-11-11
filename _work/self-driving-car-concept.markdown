@@ -4,7 +4,7 @@ date: 2016-09-08 01:47:00 Z
 tags:
 - 3D Modelling
 image: "/uploads/car.jpg"
-year: SPRING 2016
+year: Spring 2016
 link: https://www.behance.net/gallery/42720279/Tesla-Model-A-Self-driving-concept-vehicle
 link-title: Car Concept
 ---

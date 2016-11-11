@@ -4,7 +4,7 @@ date: 2016-09-07 01:47:00 Z
 tags:
 - App UI/UX Design
 image: "/uploads/app.jpg"
-year: SPRING 2016
+year: Spring 2016
 link: https://marvelapp.com/jc65a7
 link-title: App prototype
 ---
