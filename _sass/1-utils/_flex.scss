@@ -17,7 +17,7 @@
   margin-left: 20px;
   margin-right: 20px;
   align-items: center;
-  min-height: 480px;
+  min-height: 420px;
   height: calc(100% - 184px);
   transition: $trans;
   overflow: hidden;
@@ -34,6 +34,7 @@
   margin: 0 auto;
   padding-left: 80px;
   padding-right: 80px;
+  transition: $trans;
 }
 
 .col-6 {
@@ -87,8 +88,6 @@
   }
 
   .col--narrow {
-    margin-top: $leading / 2;
-    margin-bottom: 2 * $leading;
     padding: 0px;
   }
 

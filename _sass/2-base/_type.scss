@@ -1,6 +1,6 @@
 html {
   font-family: $body;
-  font-size: $baseFontSize / 16 * 100%;
+  font-size: $baseFontSize;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -163,9 +163,12 @@ a h6 {
   font-size: 18px;
 }
 
+::selection {
+  background: $third;
+}
+
 @media (min-width: $sm) {
   html {
     font-size: 21px;
   }
-
 }
