@@ -17,9 +17,10 @@
   margin-left: 20px;
   margin-right: 20px;
   align-items: center;
-  min-height: 420px;
+  min-height: 480px;
   height: calc(100% - 184px);
-  transition: height 999999s;
+  transition: $trans;
+  overflow: hidden;
 }
 
 .col {
@@ -29,8 +30,10 @@
 }
 
 .col--narrow {
-  max-width: 700px;
+  width: 100%;
   margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .col-6 {
@@ -83,9 +86,10 @@
     display: block;
   }
 
-  .col-narrow {
+  .col--narrow {
     margin-top: $leading / 2;
     margin-bottom: 2 * $leading;
+    padding: 0px;
   }
 
   .row--center {

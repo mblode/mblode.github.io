@@ -30,12 +30,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $heading;
   margin-top: 0;
   margin-bottom: .5rem;
-  line-height: 1.1;
+  line-height: 1.2;
   color: $accent;
 }
 
 h1 {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: -1px;
 }
 
 h2 {
@@ -128,7 +130,7 @@ a {
   margin-top: $leading / 2;
   margin-bottom: $leading / 2;
   text-decoration: none;
-  transition: $trans;
+  transition: color $trans;
   &:hover,
   &:focus {
     color: $accent;
@@ -163,11 +165,7 @@ a h6 {
 
 @media (min-width: $sm) {
   html {
-    font-size: 20px;
-  }
-
-  h2 {
-    font-size: 2rem;
+    font-size: 21px;
   }
 
 }
