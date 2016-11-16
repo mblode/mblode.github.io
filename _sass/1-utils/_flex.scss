@@ -17,8 +17,8 @@
   margin-left: 20px;
   margin-right: 20px;
   align-items: center;
-  // min-height: 420px;
-  height: 420px;
+  min-height: 420px;
+  height: 80%;
 }
 
 .col {
@@ -35,8 +35,8 @@
 }
 
 .col-6 {
-  width: 49%;
-  flex: 0 0 49%;
+  width: 48%;
+  flex: 0 0 48%;
   display: inline-block;
 }
 
@@ -72,8 +72,4 @@
   .col--narrow {
     padding: 0px;
   }
-
-  // .row--center {
-  //   height: calc(100% - 158px);
-  // }
 }
