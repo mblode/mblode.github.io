@@ -1,7 +1,7 @@
 a img {
   max-width: 100%;
   border: 2px solid $primary;
-  transition: $trans;
+  transition: border-color $trans, box-shadow $trans;
   margin-bottom: 1rem;
 
   &:hover {
