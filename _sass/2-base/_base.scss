@@ -19,6 +19,12 @@ hr {
   border: 1px solid $primary;
 }
 
+.hard-rule {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  border: 1px solid $primary;
+}
+
 .work--link {
   h3, h4, hr {
     transition: color $trans;

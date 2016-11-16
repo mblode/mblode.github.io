@@ -6,7 +6,7 @@
   text-align: center;
   display: block;
   font-family: $heading;
-  margin-top: 2 * $leading;
+  // margin-top: 2rem;
   font-weight: normal;
 }
 
@@ -14,7 +14,8 @@
   text-align: center;
   display: block;
   font-family: $heading;
-  margin-top: $leading;
+  line-height: 1.2;
+  margin-bottom: 1rem;
 }
 
 .footer--links {
@@ -25,13 +26,11 @@
   align-items: center;
   flex-wrap: nowrap;
   justify-content: center;
-  margin-bottom: $leading;
+  margin-bottom: 5rem;
 }
 
 .footer--links > li {
   flex: 0 0 auto;
-  margin-top: $leading;
-  margin-bottom: $leading;
 }
 
 .footer--links li a {

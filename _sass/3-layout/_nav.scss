@@ -4,11 +4,15 @@
   display: flex;
 }
 
+.nav--work {
+  margin-bottom: 2rem;
+}
+
 .nav--title {
   align-text: center;
   padding: .7rem;
-  font-family: $heading;
-  font-weight: bold;
-  font-size: 1.2rem;
-  font-style: normal;
+  // font-family: $heading;
+  // font-weight: bold;
+  font-size: 1.5rem;
+  // font-style: normal;
 }
