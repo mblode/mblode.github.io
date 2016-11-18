@@ -17,8 +17,6 @@
   margin-left: 20px;
   margin-right: 20px;
   align-items: center;
-  min-height: 420px;
-  height: 80%;
 }
 
 .col {
@@ -30,8 +28,7 @@
 .col--narrow {
   width: 100%;
   margin: 0 auto;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding: 120px 100px;
 }
 
 .col-6 {
@@ -46,17 +43,13 @@
 
 @media (max-width: $md) {
   .col-narrow {
-    max-width: 100%;
+    padding: 70px 50px;
   }
 
   .col-6 {
     width: 100%;
     flex: 0 0 100%;
     display: block;
-  }
-
-  .col-image {
-    margin: 0;
   }
 }
 
@@ -70,6 +63,6 @@
   }
 
   .col--narrow {
-    padding: 0px;
+    padding: 60px 0;
   }
 }

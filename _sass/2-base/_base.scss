@@ -42,3 +42,18 @@ hr {
     }
   }
 }
+
+.nav,
+.work {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.nav {
+  margin-top: 2rem;
+}
+
+.work {
+  margin-bottom: 2rem;
+}

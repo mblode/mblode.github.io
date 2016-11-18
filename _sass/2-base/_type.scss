@@ -41,7 +41,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.7rem;
+  font-weight: normal;
 }
 
 h3 {
@@ -124,8 +125,6 @@ blockquote {
 
 a {
   color: $primary;
-  font-family: $links;
-  font-style: italic;
   line-height: $line-height;
   margin-top: $leading / 2;
   margin-bottom: $leading / 2;
@@ -136,14 +135,6 @@ a {
     color: $accent;
     text-decoration: underline;
   }
-}
-
-p a,
-h1 a,
-h2 a {
-  font-family: $body;
-  color: $primary;
-  font-style: normal;
 }
 
 a h1,
@@ -157,11 +148,8 @@ a h6 {
   font-style: normal;
 }
 
-.p__big {
-  font-size: 1.2rem;
-}
-
-.caption {
+.caption,
+.btn {
   font-family: $links;
   font-style: italic;
   font-size: 18px;
