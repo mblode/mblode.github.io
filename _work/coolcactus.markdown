@@ -3,7 +3,7 @@ title: Cool Cactus
 date: 2016-03-08 02:58:00 Z
 tags:
 - Website Design & Development
-image: "/uploads/cool-cactus.jpg"
+image: "/uploads/cool-cactus-2.jpg"
 year: Autumn 2016
 link: http://coolcactus.com.au/
 link-title: Cool Cactus
