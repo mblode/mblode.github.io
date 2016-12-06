@@ -1,6 +1,6 @@
 .btn {
   background: $background;
-  border: 1px solid $primary;
+  border: 2px solid $primary;
   padding: .25rem .5rem;
   display: inline-block;
   vertical-align: middle;
@@ -10,8 +10,8 @@
   &:hover,
   &:focus,
   &:active {
-    background: $accent;
-    color: $background;
+    // background: $accent;
+    color: $accent;
     border-color: $accent;
     text-decoration: none;
     box-shadow: 7px 7px 0 $third;
