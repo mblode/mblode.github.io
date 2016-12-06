@@ -1,7 +1,7 @@
 ---
 title: Expense Check
 date: 2016-12-06 12:04:00 Z
-image: 
+image: "/uploads/ec.jpg"
 year: Summer 2016
 link: https://www.expensecheck.com.au
 link-title: Expense Check
