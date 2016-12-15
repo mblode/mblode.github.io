@@ -9,4 +9,4 @@ link: https://www.expensecheck.com.au
 link-title: Expense Check
 ---
 
-Expense Check saves you from overpaying on your bills. Their technology automatically detects where you’re overpaying and switches you to a better deal.
+I was hired to design and develop the Expense Check website. A Melbourne-based start-up with the mission to save you from overpaying on your bills. Their technology automatically detects where you’re overpaying and switches you to a better deal.
