@@ -3,7 +3,7 @@ title: Hayley Lauren Design
 date: 2015-10-07 02:58:00 Z
 tags:
 - Website Design & Development
-image: "/uploads/hayley-2e7709.jpg"
+image: "/uploads/hayley.jpg"
 year: Winter 2015
 link: http://hayleylaurendesign.com/
 link-title: Hayley Lauren
