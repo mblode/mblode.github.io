@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  max-width: $lg;
+  max-width: 992px;
 }
 
 .row {
@@ -54,6 +54,12 @@
 }
 
 @media (max-width: $sm) {
+  .row,
+  .row--center {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   .col,
   .col-narrow,
   .col-6 {
@@ -63,6 +69,6 @@
   }
 
   .col--narrow {
-    padding: 60px 0;
+    padding: 80px 0;
   }
 }
