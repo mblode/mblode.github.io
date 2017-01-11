@@ -3,7 +3,7 @@ title: Expense Check
 date: 2016-12-06 12:04:00 Z
 tags:
 - Website Design & Development
-image: "/uploads/ec.jpg"
+image: ec
 year: Summer 2016
 link: https://www.expensecheck.com.au
 link-title: Expense Check

@@ -16,7 +16,15 @@ date: 2016-10-08 00:51:00 Z
   {% for work in site.work reversed %}
   <div class="col-6">
     <a href="{{ work.link }}" target="_blank">
-      <img src="{{work.image}}" class="work--image" alt="Matthew Blode's portfolio">
+      <img
+        sizes="(min-width: 740px) 740px, (min-width: 320px) 100vw"
+        srcset="https://matthewblode.imgix.net/{{work.image}}.jpg?w=740&q=78&dpr=3&ch=Width,DPR 3x,
+                    https://matthewblode.imgix.net/{{work.image}}.jpg?w=740&q=78&dpr=2&ch=Width,DPR 2x,
+                    https://matthewblode.imgix.net/{{work.image}}.jpg?w=740&q=78&dpr=1&ch=Width,DPR 1x"
+        src="https://matthewblode.imgix.net/{{work.image}}.jpg?w=740"
+        alt="{{work.title}}"
+        class="work--image"
+      />
     </a>
   </div>
   <div class="col-6">
