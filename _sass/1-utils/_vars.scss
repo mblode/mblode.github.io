@@ -6,7 +6,7 @@ $xs: 544px;
 $baseFontSize: 18px;
 $baseLineHeight: 1.4;
 $leading: $baseLineHeight * 1rem;
-$line-height: $baseLineHeight * 1rem;
+$line-height: $baseLineHeight;
 $scale: 1;
 
 $trans: .3s;
@@ -18,11 +18,7 @@ $links: 'Space Mono', monospace;
 $white: #efefef;
 $black: rgba(0,0,0,.8);
 $secondary: rgba(0,0,0,.5);
-// $primary: #3878FF;
-// $accent: #EF4621;
-$third: #F9B5A6;
 $background: #F7F5EF;
-
 $accent: #FD7D67;
 $primary: #4C70FA;
-// $background: #FCF8ED;
+$third: #F9B5A6;

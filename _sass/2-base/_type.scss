@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $heading;
   margin-top: 0;
   margin-bottom: .5rem;
-  line-height: 1.2;
+  line-height: 1.1;
   color: $accent;
 }
 
@@ -150,6 +150,10 @@ a h6 {
   font-family: $links;
   font-style: italic;
   font-size: 18px;
+}
+
+.caption {
+  color: $accent;
 }
 
 ::selection {
