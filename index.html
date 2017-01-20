@@ -17,10 +17,9 @@ date: 2016-10-08 00:51:00 Z
   <div class="col-6">
     <a href="{{ work.link }}" target="_blank">
       <img
-        srcset="https://matthewblode.imgix.net/{{work.image}}.jpg?w=453&q=78 1x,
-                https://matthewblode.imgix.net/{{work.image}}.jpg?w=453&q=78&dpr=2 2x,
-                https://matthewblode.imgix.net/{{work.image}}.jpg?w=453&q=78&dpr=3 3x"
-        src="https://matthewblode.imgix.net/{{work.image}}.jpg?w=453&q=78"
+        srcset="/_uploads/{{work.image}}.jpg 1x,
+                /_uploads/{{work.image}}@2x.jpg 2x"
+        src="/_uploads/{{work.image}}.jpg"
         alt="{{work.title}}" 
         class="work--image"
       >
