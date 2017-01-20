@@ -11,9 +11,15 @@ $scale: 1;
 
 $trans: .3s;
 
-$body: 'Work Sans', sans-serif;
-$heading: 'Work Sans', sans-serif;
-$links: 'Space Mono', monospace;
+$body:  'Work Sans',
+				-apple-system,
+			  system-ui,
+			  BlinkMacSystemFont,
+			  "Segoe UI",
+			  "Roboto",
+			  "Helvetica Neue", Arial, sans-serif !default;
+$heading: $body;
+$links: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 
 $white: #efefef;
 $black: rgba(0,0,0,.8);
