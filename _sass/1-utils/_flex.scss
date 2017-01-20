@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  max-width: 992px;
+  max-width: $lg;
 }
 
 .row {
@@ -46,11 +46,11 @@
     padding: 70px 50px;
   }
 
-  .col-6 {
-    width: 100%;
-    flex: 0 0 100%;
-    display: block;
-  }
+  // .col-6 {
+  //   width: 100%;
+  //   flex: 0 0 100%;
+  //   display: block;
+  // }
 }
 
 @media (max-width: $sm) {
