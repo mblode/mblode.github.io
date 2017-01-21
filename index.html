@@ -1,7 +1,6 @@
 ---
 title: Matthew Blode
 ---
-
 <div class="row--center">
   <div class="col--narrow">
     <h1>Hi, my name is <a href="https://www.linkedin.com/in/matthew-blode-71700894">Matthew Blode</a> and I make things for the internet. I currently work at <a href="http://www.expensecheck.com.au/">Expense Check</a>.</h1>
@@ -12,29 +11,23 @@ title: Matthew Blode
     <h2>Selected projects</h2>
   </div>
   {% for work in site.work reversed %}
-    <div class="col-6">
-      <a href="{{ work.link }}" target="_blank">
-        <img
-          srcset="/uploads/{{work.image}}.jpg 1x,
-                  /uploads/{{work.image}}-2x.jpg 2x"
-          src="/uploads/{{work.image}}-2x.jpg"
-          alt="{{work.title}}" 
-          class="work--image"
-        >
-      </a>
-    </div>
-    <div class="col-6">
-      <p class="caption">{{ work.year }}</p>
-      <a href="{{ work.link }}" class="work--link" target="_blank">
-        <h3>{{ work.title }}</h3>
-        <h4>{{ work.tags }}</h4>
-        <hr/>
-      </a>
-      <p>{{ work.excerpt }}</p>
-      <a href="{{ work.link }}" class="btn" target="_blank">See more&hellip;</a>
-    </div>
-    <div class="col">
-      <div class="hard-rule"></div>
-    </div>
+  <div class="col-6">
+    <a href="{{ work.link }}" target="_blank">
+      <img srcset="/uploads/{{work.image}}.jpg 1x, /uploads/{{work.image}}-2x.jpg 2x" src="/uploads/{{work.image}}-2x.jpg" alt="{{work.title}}" class="work--image">
+    </a>
+  </div>
+  <div class="col-6">
+    <p class="caption">{{ work.year }}</p>
+    <a href="{{ work.link }}" class="work--link" target="_blank">
+      <h3>{{ work.title }}</h3>
+      <h4>{{ work.tags }}</h4>
+      <hr/>
+    </a>
+    <p>{{ work.excerpt }}</p>
+    <a href="{{ work.link }}" class="btn" target="_blank">See more&hellip;</a>
+  </div>
+  <div class="col">
+    <div class="hard-rule"></div>
+  </div>
   {% endfor %}
 </div>
