@@ -13,7 +13,7 @@ title: Matthew Blode
   {% for work in site.work reversed %}
   <div class="col-6">
     <a href="{{ work.link }}" target="_blank">
-      <img src="/uploads/{{work.image}}.jpg" srcset="/uploads/{{work.image}}-2x.jpg 2x"  alt="{{work.title}}" class="work--image">
+      <img srcset="/uploads/{{work.image}}.jpg, /uploads/{{work.image}}-2x.jpg 2x" src="/uploads/{{work.image}}-2x.jpg" alt="{{work.title}}" class="work--image">
     </a>
   </div>
   <div class="col-6">
