@@ -5,7 +5,7 @@ tags:
 - Website Design & Development
 image: hayley
 year: Winter 2015
-link: http://hayleylaurendesign.com/
+link: http://old.hayleylaurendesign.com/
 link-title: Hayley Lauren
 ---
 
