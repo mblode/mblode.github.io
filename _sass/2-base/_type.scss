@@ -26,7 +26,13 @@ blockquote {
   margin-bottom: $leading;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, 
+h2,
+.h2, 
+h3, 
+h4, 
+h5, 
+h6 {
   font-family: $heading;
   margin-top: 0;
   margin-bottom: .5rem;
@@ -40,7 +46,8 @@ h1 {
   letter-spacing: -1px;
 }
 
-h2 {
+h2,
+.h2 {
   font-size: 1.7rem;
   font-weight: normal;
 }
