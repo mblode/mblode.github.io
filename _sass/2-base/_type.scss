@@ -172,3 +172,9 @@ a h6 {
     font-size: 21px;
   }
 }
+
+@media (min-width: $lg) {
+  h1 {
+    text-align: center;
+  }
+}
