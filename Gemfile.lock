@@ -229,7 +229,6 @@ DEPENDENCIES
   jekyll-autoprefixer
   jekyll-redirect-from
   json!
-  nokogiri
 
 BUNDLED WITH
    1.16.0
